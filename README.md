@@ -1,6 +1,6 @@
 # nexon-api-study
 
-## ✅프로젝트 목표
+## ✅ 프로젝트 목표
 
 `Nexon OPEN API`를 통해 다음의 기술스택의 학습을 목표로 합니다.
 
@@ -11,6 +11,17 @@
 |React| 부분적 동적 UI 컴포넌트와 API 데이터 바인딩 스터디          |
 |TailwindCSS| Class 기반 유틸리티 퍼스트 CSS 프레임워크로 빠른 UI 개발 가능 |
 
-### Nexon OPEN API Source
+### 🍁 Nexon OPEN API Source
 - https://openapi.nexon.com/ko/
 
+### 🚀 Project npm Install Commend
+```shell
+// Astro 프로젝트 생성 >> TypeScript 자동 적용
+npm create astro@latest
+
+// TailwindCSS Install
+npx astro add tailwind
+
+// React.JS Install
+npm install @astrojs/react react react-dom
+```
