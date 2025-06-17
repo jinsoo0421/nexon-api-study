@@ -1,9 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Input from "../components/Input";
+import IndexLayout from "../layouts/IndexLayout.astro";
+import SearchBar from "../components/SearchBar";
 ---
 
-<Layout>
-	<!-- Input에서 입력한 값이 여기에 표기되도록 -->
-	<Input client:load />
-</Layout>
+<IndexLayout>
+	<SearchBar client:load />
+</IndexLayout>

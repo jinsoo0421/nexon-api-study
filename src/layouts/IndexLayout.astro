@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro Basics</title>
+</head>
+<body class="min-h-screen flex flex-col items-center bg-gray-50 space-y-8 mt-40">
+    <div id="title-continer" class="flex flex-col items-center justify-center border border-2 rounded-xl border-orange-300 w-96 p-4">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-12 fill-orange-400">
+            <title>NEXON</title>
+            <path d="M10.714 15.358V0L0 5.697v15.358L13.29 24 24 18.303zm-9.495-1.219 7.291 1.568-7.291 3.832zm11.895 8.578L2.35 20.327l7.454-3.926 10.846 2.406z"/>
+        </svg>
+        <h1 class="text-xl text-[#5C636E] font-normal">JinSoo's Nexon API Caller</h1>
+    </div>
+    <slot />
+</body>
+</html>

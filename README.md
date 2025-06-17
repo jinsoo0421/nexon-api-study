@@ -11,8 +11,7 @@
 |React| 부분적 동적 UI 컴포넌트와 API 데이터 바인딩 스터디          |
 |TailwindCSS| Class 기반 유틸리티 퍼스트 CSS 프레임워크로 빠른 UI 개발 가능 |
 
-### 🍁 Nexon OPEN API Source
-- https://openapi.nexon.com/ko/
+<br>
 
 ### 🚀 Project npm Install Commend
 ```shell
@@ -25,3 +24,9 @@ npx astro add tailwind
 // React.JS Install
 npm install @astrojs/react react react-dom
 ```
+
+<br>
+
+### 📋 각종 출저
+- [Nexon OPEN API Source](/https://openapi.nexon.com/ko/)
+- [Simple Icons](https://simpleicons.org/)
